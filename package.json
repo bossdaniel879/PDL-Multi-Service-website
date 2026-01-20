@@ -1,57 +1,18 @@
 {
   "name": "pdl-multiservices-website",
   "version": "1.0.0",
-  "description": "Professional website for PDL Multiservices - Landscaping, Lawn Care & Junk Removal",
-  "main": "PDL-Clean.htm",
+  "private": true,
   "scripts": {
-    "start": "open PDL-Clean.htm",
-    "serve": "npx http-server",
-    "build": "echo 'Static HTML - no build needed'",
-    "deploy": "echo 'Ready to deploy to any static hosting'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [
-    "landscaping",
-    "lawn-care",
-    "junk-removal",
-    "services",
-    "portfolio",
-    "business-website"
-  ],
-  "author": "PDL Multiservices",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pdlmultiservices/website"
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "homepage": "https://pdlmultiservices.com",
-  "bugs": {
-    "url": "https://github.com/pdlmultiservices/website/issues",
-    "email": "info@pdlmultiservices.com"
-  },
-  "contact": {
-    "name": "PDL Multiservices",
-    "email": "info@pdlmultiservices.com",
-    "phone": "(772) 521-6709",
-    "url": "https://pdlmultiservices.com"
-  },
-  "files": [
-    "PDL-Clean.htm",
-    "README.md",
-    "package.json"
-  ],
-  "devDependencies": {},
   "engines": {
-    "node": ">=12.0.0"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "IE 11"
-  ],
-  "meta": {
-    "created": "2026-01-19",
-    "updated": "2026-01-20",
-    "type": "static-html",
-    "status": "production",
-    "serviceArea": "Greater Port St. Lucie Area"
+    "node": "18.x"
   }
 }
