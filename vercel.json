@@ -1,5 +1,4 @@
-{
-  "buildCommand": "",
-  "outputDirectory": ".",
-  "installCommand": ""
+"engines": {
+  "node": "18.x"
 }
+
