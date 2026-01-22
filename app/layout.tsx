@@ -16,3 +16,18 @@ export default function RootLayout({
     </html>
   );
 }
+
+export default function HomePage() {
+  return (
+    <main>
+      {/* PASTE YOUR HTML CONTENT HERE */}
+      
+      <h1>PDL Multi-Services</h1>
+      <p>
+        Lawn Care, Junk Removal, Construction, and more.
+        No excuses. Just results.
+      </p>
+
+    </main>
+  );
+}
