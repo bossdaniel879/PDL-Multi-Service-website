@@ -1,10 +1,5 @@
 import "./globals.css";
 
-export const metadata = {
-  title: "PDL Multi-Services",
-  description: "Lawn Care, Junk Removal, Construction & More"
-};
-
 export default function RootLayout({
   children,
 }: {
